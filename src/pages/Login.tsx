@@ -14,7 +14,7 @@ const LoginImage = styled.div`
 function Login() {
   return (
     <>
-    <LoginArea>login</LoginArea>
+    <LoginArea>Login</LoginArea>
     <LoginImage />
     </>
   );

@@ -2,8 +2,7 @@
 
 function Leads() {
   return (
-    <>
-    </>
+    <></>
   );
 }
 
