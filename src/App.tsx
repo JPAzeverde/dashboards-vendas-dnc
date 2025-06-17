@@ -7,9 +7,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/registration" element={<Registration />} />
         <Route path="/leads" element={<Leads />} />
         <Route path="/perfil" element={<Profile />} />
+        <Route path="/registration" element={<Registration />} />
       </Routes>
     </Router>
   );
