@@ -46,8 +46,8 @@ export function CustomTable( props: CustomTableProps ) {
 			</thead>
 			<tbody>
 				{
-					rows.map((row, index) => (
-						<tr>
+					rows.map((row, rowIndex) => (
+						<tr key={rowIndex}>
 							{
 								row.map((cell, cellIndex) =>(
 									<td key={cellIndex}>
