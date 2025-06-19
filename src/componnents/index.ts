@@ -1,1 +1,7 @@
 export * from './BannerImage'
+export * from './FormComponents'
+export * from './StyledButton'
+export * from './StyledInput'
+export * from './Typographies'
+export * from './Logo'
+export * from './Header'
