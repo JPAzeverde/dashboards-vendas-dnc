@@ -1,8 +1,9 @@
-// import styled from 'styled-components'
+import { Header } from "@/componnents";
 
 function Profile() {
   return (
     <>
+      <Header />
     </>
   );
 }
