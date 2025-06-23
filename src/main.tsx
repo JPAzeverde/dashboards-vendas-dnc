@@ -1,7 +1,6 @@
 import App from './App.tsx'
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { ThemeProvider } from 'styled-components'
 import { GlobalStyle } from './styles/globalStyle.ts'
 import { AppThemeProvider } from './contexts/AppThemeContext.tsx'
 
