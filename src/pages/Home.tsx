@@ -1,5 +1,5 @@
-import { Header, CardComponent, AvatarList, CustomTable } from "@/componnents";
-import { Container } from "@mui/material";
+import { Header, CardComponent, AvatarList, CustomTable, CustomChart } from "@/componnents";
+import { Container, Box } from "@mui/material";
 import { currencyConverter } from "@/utils";
 
 function Home() {
@@ -46,12 +46,20 @@ function Home() {
     <>
       <Header />
       <Container maxWidth="lg">
-        <CardComponent >
-          <AvatarList listData={mockListData} />
-        </CardComponent>
-        <CardComponent >
-          <CustomTable headers={mockTableData.header} rows={mockTableData.rows} />
-        </CardComponent>
+        <Box display="flex" flexDirection="column" gap={1}>
+          <CardComponent>
+            <AvatarList listData={mockListData} />
+          </CardComponent>
+          <CardComponent>
+            <CustomTable headers={mockTableData.header} rows={mockTableData.rows} />
+          </CardComponent>
+          <CardComponent>
+            <CustomChart
+              labels={['jan', 'fev', 'mar', 'abr', 'mai']}
+              data={[1700.01, 2000.02, 2500.00, 4000.04 , 3000.03]}
+              type='line' />
+          </CardComponent>
+        </Box>
       </Container>
     </>
   );
