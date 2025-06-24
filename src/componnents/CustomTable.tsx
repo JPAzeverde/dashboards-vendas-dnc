@@ -63,5 +63,4 @@ export function CustomTable( props: CustomTableProps ) {
 		</table>
 
 	</TableWrapper>
-    
 }
