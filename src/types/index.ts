@@ -7,5 +7,6 @@ export * from './customTable'
 export * from './typographies'
 export * from './formComponents'
 export * from './appThemeContext'
-
-
+export * from './newsData'
+export * from './highlightsData'
+export * from './starsData'
