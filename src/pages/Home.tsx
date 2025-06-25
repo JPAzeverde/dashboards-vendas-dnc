@@ -3,8 +3,6 @@ import { Container, Grid } from "@mui/material";
 import { currencyConverter , highlightsTextConverter } from "@/utils";
 import { useGet } from "@/hooks";
 import type { CustomChartProps, HighlightsData, NewsData, StarsData } from "@/types";
-import { ClassNames } from "@emotion/react";
-
 
 function Home() {
   const{
