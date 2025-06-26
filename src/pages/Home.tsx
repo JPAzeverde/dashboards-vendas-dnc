@@ -35,8 +35,6 @@ function Home() {
     error: salesYearError,
   } = useGet<CustomChartProps>('sales/year')
   
-  
-  
   return (
     <>
       <Header />
@@ -54,10 +52,7 @@ function Home() {
                       <StyledH3 className="mb-1" size={40} lineHeight={40}>{currencyConverter(highlightsData[0].value)}</StyledH3>
                       <StyledSpan>{highlightsData[0].subtitle}</StyledSpan>
                       </>
-                    )
-
-                  }
-                  
+                  )}
                 </CardComponent>
               </Grid>
               <Grid size={{ xs:12, md:4 }}>
@@ -72,7 +67,6 @@ function Home() {
                       </StyledSpan>
                       </>
                     )
-
                   }
                 </CardComponent>
               </Grid>
@@ -85,10 +79,7 @@ function Home() {
                       <StyledH3 className="mb-1" size={40} lineHeight={40}>{highlightsData[2].value}</StyledH3>
                       <StyledSpan>{highlightsData[2].subtitle}</StyledSpan>
                       </>
-                    )
-
-                  }
-                  
+                  )}
                 </CardComponent>
               </Grid>
               </>
@@ -109,8 +100,7 @@ function Home() {
                             type={salesMounthData.type}
                           />
                         </>
-                      )
-                    }
+                    )}
                   </CardComponent>
               )
             }
@@ -156,8 +146,7 @@ function Home() {
                           ])}
                         />
                       </>
-                    )
-                  }
+                  )}
                 </CardComponent>
               )
             }
@@ -176,9 +165,8 @@ function Home() {
                             type={salesYearData.type}
                           />
                         </>
-                      )
-                    }
-                  </CardComponent>
+                      )}
+                </CardComponent>
               )
             }
           </Grid>
