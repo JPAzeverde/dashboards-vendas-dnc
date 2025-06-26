@@ -21,10 +21,11 @@ function Leads() {
   const {formValues, formValid, handleChange} = useFormValidation(inputs)
 
 
-  const { data:createLeadsData,
-          loading:createLeadsLoading,
-          error:createLeadsError,
-          postData: createLeadsPostData,
+  const { 
+    data:createLeadsData,
+    loading:createLeadsLoading,
+    error:createLeadsError,
+    postData: createLeadsPostData,
   } = usePost<LeadsData, LeadsPostData>('leads/create', true);
 
   const{

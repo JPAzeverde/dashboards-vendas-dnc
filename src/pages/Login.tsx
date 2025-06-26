@@ -14,10 +14,16 @@ import { pxToRem, jwtExpirationDataConverter} from '@/utils'
 //Types
 import type { LoginData, LoginPostData, MessageProps, DecodedJWT } from '@/types'
 
+import { useSelector } from 'react-redux';
+import type { RootState } from '@/redux/index'; 
+
 
 
 function Login() {
   const navigate = useNavigate()
+  const {email, message} = useSelector((state : RootState) => state.createProfile)
+
+
   const inputs = [
     { type: 'email', placeholder: 'Email' },
     { type: 'password', placeholder: 'Password' },
@@ -26,8 +32,8 @@ function Login() {
   const { data, loading, error, postData } = usePost<LoginData, LoginPostData>('login');
   const { formValues, formValid, handleChange: handleInputChange } = useFormValidation(inputs);
 
-  const getErrorMessage = ():MessageProps => {
-    if (!error) return { msg: '', type: 'success' };
+  const handleMessage = ():MessageProps => {
+    if (!error) return { msg: message ?? '', type: 'success' };
 
     switch (error) {
       case 401:
@@ -55,6 +61,12 @@ function Login() {
       if (Cookies.get('Authorization')) navigate('/home')
     }
   }, [data, navigate]);
+
+  useEffect(()=>{
+    if(email){
+      handleChange(0, email)
+    }
+  }, [email])
 
   return (
     <Box>
@@ -95,7 +107,7 @@ function Login() {
                   onClick: handleSubmit,
                 },
               ]}
-              message={getErrorMessage()}
+              message={handleMessage()}
             />
           </Container>
         </Grid>
@@ -114,3 +126,7 @@ function Login() {
 }
 
 export default Login
+function handleChange(arg0: number, email: string) {
+  throw new Error('Function not implemented.')
+}
+
