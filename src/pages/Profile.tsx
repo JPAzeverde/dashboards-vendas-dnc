@@ -8,8 +8,7 @@ import { logout } from "@/services";
 
 import type { InputProps, ProfileData, ProfileEditableData, MessageProps } from "@/types";
 
-import { useFormValidation, useGet, useDelete, usePost, usePut } from "@/hooks";
-import Cookies from "js-cookie";
+import { useFormValidation, useGet, useDelete, usePut } from "@/hooks";
 
 function Profile() {
   const themeConstext = useContext(AppThemeContext)
