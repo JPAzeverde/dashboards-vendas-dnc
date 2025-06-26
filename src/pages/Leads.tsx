@@ -3,11 +3,10 @@ import { Container, Grid } from "@mui/material";
 
 import { useFormValidation, useGet, usePost, useDelete } from "@/hooks";
 
-import type { InputProps, LeadsData, LeadsPostData, LoginPostData, MessageProps } from "@/types";
+import type { InputProps, LeadsData, LeadsPostData, MessageProps } from "@/types";
 
 import { useEffect, useState, type ChangeEvent } from "react";
 
-import type { AxiosRequestConfig } from "axios"
 
 
 
