@@ -64,7 +64,7 @@ function Login() {
 
   useEffect(()=>{
     if(email){
-      handleChange(0, email)
+      handleInputChange(0, email)
     }
   }, [email])
 
@@ -126,7 +126,3 @@ function Login() {
 }
 
 export default Login
-function handleChange(arg0: number, email: string) {
-  throw new Error('Function not implemented.')
-}
-
