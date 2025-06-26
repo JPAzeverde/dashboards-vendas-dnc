@@ -3,7 +3,7 @@ import { Container, Grid } from "@mui/material";
 import { currencyConverter , highlightsTextConverter } from "@/utils";
 import { useGet } from "@/hooks";
 import type { CustomChartProps, HighlightsData, NewsData, StarsData } from "@/types";
-
+import { Link } from "react-router-dom";
 function Home() {
   const{
     data: highlightsData,
@@ -71,16 +71,18 @@ function Home() {
                 </CardComponent>
               </Grid>
               <Grid size={{ xs:12, md:4 }}>
-                <CardComponent className={highlightsLoading? 'skeleton-loading skeleton-loading-mh1': ''}>
-                  {
-                    !highlightsLoading && highlightsData && (
-                      <>
-                      <StyledH2 className="mb-1">Leads Conectados</StyledH2>
-                      <StyledH3 className="mb-1" size={40} lineHeight={40}>{highlightsData[2].value}</StyledH3>
-                      <StyledSpan>{highlightsData[2].subtitle}</StyledSpan>
-                      </>
-                  )}
-                </CardComponent>
+                <Link to="/leads">
+                  <CardComponent className={highlightsLoading? 'skeleton-loading skeleton-loading-mh1': ''}>
+                    {
+                      !highlightsLoading && highlightsData && (
+                        <>
+                        <StyledH2 className="mb-1">Leads Conectados</StyledH2>
+                        <StyledH3 className="mb-1" size={40} lineHeight={40}>{highlightsData[2].value}</StyledH3>
+                        <StyledSpan>{highlightsData[2].subtitle}</StyledSpan>
+                        </>
+                    )}
+                  </CardComponent>
+                </Link>
               </Grid>
               </>
             )
