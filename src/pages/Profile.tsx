@@ -55,6 +55,7 @@ function Profile() {
     {name:'email', type:'email', placeholder:'Email', disabled: true, required:false},
     {name:'phone', type:'tel', placeholder:'Telefone', required:true},
   ]
+  
   const {formValues, formValid, handleChange} = useFormValidation(inputs)
   const handleSubmit = async (e:React.FormEvent) => {
     e.preventDefault()
