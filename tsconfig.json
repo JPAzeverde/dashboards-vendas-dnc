@@ -3,8 +3,11 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
   },
+  "include": ["src"],
   "files": [],
   "references": [
     {

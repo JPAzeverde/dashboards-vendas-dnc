@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import { styled } from "styled-components";
 import type { ButtonProps } from "@/types"
 import { pxToRem } from "@/utils";
 

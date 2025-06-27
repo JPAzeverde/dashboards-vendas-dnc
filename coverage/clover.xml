@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1751054323653" clover="3.2.0">
+  <project timestamp="1751054323653" name="All files">
+    <metrics statements="169" coveredstatements="110" conditionals="58" coveredconditionals="4" methods="78" coveredmethods="26" elements="305" coveredelements="140" complexity="0" loc="169" ncloc="169" packages="4" files="21" classes="21"/>
+    <package name="componnents">
+      <metrics statements="135" coveredstatements="82" conditionals="54" coveredconditionals="0" methods="69" coveredmethods="23"/>
+      <file name="AvatarList.tsx" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\componnents\AvatarList.tsx">
+        <metrics statements="7" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+      <file name="BannerImage.tsx" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\componnents\BannerImage.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+      </file>
+      <file name="CardComponents.tsx" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\componnents\CardComponents.tsx">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="8" type="stmt"/>
+        <line num="6" count="8" type="stmt"/>
+        <line num="12" count="8" type="stmt"/>
+        <line num="13" count="8" type="stmt"/>
+        <line num="16" count="8" type="stmt"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="21" count="8" type="stmt"/>
+      </file>
+      <file name="CustomChart.tsx" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\componnents\CustomChart.tsx">
+        <metrics statements="11" coveredstatements="6" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="46" count="0" type="stmt"/>
+        <line num="57" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+      <file name="CustomTable.tsx" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\componnents\CustomTable.tsx">
+        <metrics statements="11" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="50" count="4" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="52" count="0" type="stmt"/>
+        <line num="58" count="0" type="stmt"/>
+        <line num="66" count="0" type="stmt"/>
+        <line num="69" count="0" type="stmt"/>
+      </file>
+      <file name="FormComponents.tsx" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\componnents\FormComponents.tsx">
+        <metrics statements="9" coveredstatements="5" conditionals="4" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+      </file>
+      <file name="Header.tsx" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\componnents\Header.tsx">
+        <metrics statements="10" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+      <file name="Logo.tsx" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\componnents\Logo.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+      </file>
+      <file name="StyledButton.tsx" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\componnents\StyledButton.tsx">
+        <metrics statements="15" coveredstatements="15" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="12"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="17" count="8" type="stmt"/>
+        <line num="18" count="8" type="stmt"/>
+        <line num="20" count="8" type="stmt"/>
+        <line num="24" count="8" type="stmt"/>
+        <line num="25" count="8" type="stmt"/>
+        <line num="27" count="8" type="stmt"/>
+        <line num="32" count="8" type="stmt"/>
+        <line num="36" count="8" type="stmt"/>
+        <line num="40" count="8" type="stmt"/>
+        <line num="41" count="8" type="stmt"/>
+        <line num="44" count="8" type="stmt"/>
+        <line num="45" count="8" type="stmt"/>
+      </file>
+      <file name="StyledInput.tsx" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\componnents\StyledInput.tsx">
+        <metrics statements="10" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="7" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+      </file>
+      <file name="Typographies.tsx" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\componnents\Typographies.tsx">
+        <metrics statements="32" coveredstatements="8" conditionals="48" coveredconditionals="0" methods="24" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="7" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="13" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="19" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="21" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="22" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="24" count="4" type="stmt"/>
+        <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="27" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="31" count="4" type="stmt"/>
+        <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="33" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="34" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="35" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="38" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="39" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="40" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="41" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+      <file name="index.ts" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\componnents\index.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="4" type="stmt"/>
+        <line num="2" count="4" type="stmt"/>
+        <line num="3" count="4" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
+        <line num="5" count="4" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="resources">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="themesList.ts" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\resources\themesList.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="styles">
+      <metrics statements="12" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+      <file name="globalStyle.ts" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\styles\globalStyle.ts">
+        <metrics statements="8" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\styles\index.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="3" type="stmt"/>
+        <line num="2" count="3" type="stmt"/>
+      </file>
+      <file name="theme.ts" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\styles\theme.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="3" count="3" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="20" coveredstatements="19" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="3"/>
+      <file name="currencyConverter.ts" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\utils\currencyConverter.ts">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+      </file>
+      <file name="highlightsTextConvert.ts" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\utils\highlightsTextConvert.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="8" count="4" type="cond" truecount="4" falsecount="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\utils\index.ts">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="7" type="stmt"/>
+        <line num="2" count="7" type="stmt"/>
+        <line num="3" count="7" type="stmt"/>
+        <line num="4" count="7" type="stmt"/>
+      </file>
+      <file name="jwtExpirationDateConverter.ts" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\utils\jwtExpirationDateConverter.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="9" count="3" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+      </file>
+      <file name="pxToRem.ts" path="C:\Users\joaopzevedo\Desktop\Me\AulasTypeScript_DNC\dashboards-vendas-dnc\src\utils\pxToRem.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="7" type="stmt"/>
+        <line num="8" count="135" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
