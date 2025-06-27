@@ -1,4 +1,5 @@
 export interface Theme{
+    appLogoTheme: any
     appBackground: string
     appColor: string
     appDefaultStroke: string
@@ -12,7 +13,7 @@ export interface Theme{
         disabled: string
         disabledColor: string
         primary: string
-        primaryColor:stringtring
+        primaryColor:string
         primaryHover: string
     }
     card:{
