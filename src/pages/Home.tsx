@@ -44,7 +44,7 @@ function Home() {
             !highlightsError && (
               <>
               <Grid size={{ xs:12, md:4 }}>
-                <CardComponent className={highlightsLoading? 'skeleton-loading skeleton-loading-mh1': ''}>
+                <CardComponent id="total-sales" className={highlightsLoading? 'skeleton-loading skeleton-loading-mh1': ''}>
                   {
                     !highlightsLoading && highlightsData && (
                       <>
@@ -56,7 +56,7 @@ function Home() {
                 </CardComponent>
               </Grid>
               <Grid size={{ xs:12, md:4 }}>
-                <CardComponent className={ highlightsData? highlightsData[1].subtitle: 'skeleton-loading skeleton-loading-mh1'}>
+                <CardComponent id="metaaa-mes" className={ highlightsData? highlightsData[1].subtitle: 'skeleton-loading skeleton-loading-mh1'}>
                   {
                     !highlightsLoading && highlightsData && (
                       <>
@@ -72,7 +72,7 @@ function Home() {
               </Grid>
               <Grid size={{ xs:12, md:4 }}>
                 <Link to="/leads">
-                  <CardComponent className={highlightsLoading? 'skeleton-loading skeleton-loading-mh1': ''}>
+                  <CardComponent id="total-leads" className={highlightsLoading? 'skeleton-loading skeleton-loading-mh1': ''}>
                     {
                       !highlightsLoading && highlightsData && (
                         <>
@@ -91,7 +91,7 @@ function Home() {
           <Grid size={{ xs:12, md:7 }}>
             {
               !salesMounthError && (
-                  <CardComponent className={salesMounthData ? 'skeleton-loading skeleton-loading-mh2' : ''}>
+                  <CardComponent id="month-sales-chart" className={salesMounthData ? 'skeleton-loading skeleton-loading-mh2' : ''}>
                     {
                       !salesMounthLoading && salesMounthData && (
                         <>
@@ -111,7 +111,7 @@ function Home() {
           <Grid size={{ xs:12, md:5 }}>
             {
                 !salesStarsError && (
-                <CardComponent className={salesStarsData ? 'skeleton-loading skeleton-loading-mh2' : ''}>
+                <CardComponent id="sales-stars" className={salesStarsData ? 'skeleton-loading skeleton-loading-mh2' : ''}>
                    {
                     !salesStarsLoading && salesStarsData && (
                         <>
@@ -131,7 +131,7 @@ function Home() {
           <Grid size={{ xs:12, md:5 }}>
             {
               !newsError && (
-                <CardComponent className={newsData ? 'skeleton-loading skeleton-loading-mh2' : ''}>
+                <CardComponent id="news" className={newsData ? 'skeleton-loading skeleton-loading-mh2' : ''}>
                   {
                     !newsLoading && newsData && (
                       <>
@@ -156,7 +156,7 @@ function Home() {
           <Grid size={{ xs:12, md:7 }}>
             {
               !salesYearError && (
-                  <CardComponent className={salesYearData ? 'skeleton-loading skeleton-loading-mh2' : ''}>
+                  <CardComponent id="years-sales" className={salesYearData ? 'skeleton-loading skeleton-loading-mh2' : ''}>
                     {
                       !salesYearLoading && salesYearData && (
                         <>
