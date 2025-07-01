@@ -7,7 +7,12 @@ export default defineConfig({
   plugins: [react()],
   optimizeDeps:{
     include:['@emotion/styled']
+    
   },
+  server: {
+    host:true
+  },
+
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src') }
