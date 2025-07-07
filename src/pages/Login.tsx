@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import type { ChangeEvent } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { jwtDecode } from 'jwt-decode' 
 import Cookies from 'js-cookie'
 
@@ -109,7 +109,12 @@ function Login() {
               ]}
               message={handleMessage()}
             />
+
+            
+            <Link to='/registration' className='mt-2'>Registre-se</Link> 
+
           </Container>
+
         </Grid>
 
         <Grid

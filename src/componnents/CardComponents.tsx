@@ -7,7 +7,7 @@ export const CardComponent = styled.div`
     border-radius: ${pxToRem(8)};
     box-sizing: border-box;
     padding:${pxToRem(24)};
-    width:100%;
+    height:100%;
     &.alert{
         background-color: ${(props) => props.theme.card.alert};
         border-color: ${(props) => props.theme.card.alert};

@@ -35,7 +35,7 @@ function Registration() {
     e.preventDefault()
     dispatch(
       setProfileData({
-        email: String(step1FormValues[2])
+        email: String(step1FormValues[1])
       })
     )
   }
@@ -122,7 +122,7 @@ function Registration() {
                           onClick: email? handleStep2 : handleStep1
                         },
                       ]}
-                      message={{ msg: 'sucesso', type: 'success' }}/>
+                      />
 
                  </Container>
      
